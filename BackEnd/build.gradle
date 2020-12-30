@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'scala'
+}
+
+group 'com.mactavish'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.spark', name: 'spark-core_2.12', version: '3.0.1'
+    compile group: 'org.apache.spark', name: 'spark-sql_2.12', version: '3.0.1'
+}
