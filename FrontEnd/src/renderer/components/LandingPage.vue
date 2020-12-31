@@ -98,6 +98,8 @@
 <script>
   export default {
     data () {
+      // TODO: records should be stored in a more proper data structure
+      // example for showing in PPT
       return {
         tableData: [{
           id: 'U08M11006',
@@ -138,6 +140,7 @@
       }
     },
     methods: {
+      // TODO: switch fuctions
       handleOpen (key, keyPath) {
         console.log(key, keyPath)
       },
